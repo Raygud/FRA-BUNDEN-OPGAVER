@@ -1,0 +1,44 @@
+using System;
+
+namespace _3._STARTOP___BRUGERINPUT_LOMMEREGNER
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("1 = + ");
+            Console.WriteLine("2 = - ");
+            Console.WriteLine("3 = * ");
+            Console.WriteLine("4 = / ");
+            String valg = Console.ReadLine();
+            Console.WriteLine("Tal 1:");
+            String Tal1 = Console.ReadLine();
+            Console.WriteLine("Tal 2:");
+            string Tal2 = Console.ReadLine();
+            Double Result = 0;
+
+            if (valg == "1") 
+            {
+                Result = Convert.ToDouble(Tal1) + Convert.ToDouble(Tal2);
+            }
+            if (valg == "2")
+            {
+                Result = Convert.ToDouble(Tal1) - Convert.ToDouble(Tal2);
+            }
+            if (valg == "3") 
+            {
+                Result = Convert.ToDouble(Tal1) * Convert.ToDouble(Tal2);
+            }
+            if (valg == "4") 
+            {
+                Result = Convert.ToDouble(Tal1) / Convert.ToDouble(Tal2);
+            }
+
+            Console.WriteLine("---------------------");
+            Console.Write("Resultat: ");
+            Console.WriteLine(Result);
+            Console.WriteLine("---------------------");
+            Console.ReadLine();
+        }
+    }
+}
