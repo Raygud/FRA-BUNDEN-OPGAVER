@@ -6,7 +6,7 @@ namespace ConsoleApp12
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hej \n Rúni");
+            Console.WriteLine("Hej \n\nRúni");
             Console.ReadLine();
         }
     }
