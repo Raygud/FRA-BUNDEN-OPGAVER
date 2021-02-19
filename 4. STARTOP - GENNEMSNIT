@@ -18,7 +18,7 @@ namespace _4._STARTOP___GENNEMSNIT
             
 
 
-            Console.WriteLine("- - - - - - - - - - - - - - - \n Gennemsnit = " + Resultat);
+            Console.WriteLine("- - - - - - - - - - - - - - - \n Gennemsnittet af " + tal1+", "+tal2+" & " + tal3 +" er "+ Resultat);
             Console.ReadLine();
 
         }
